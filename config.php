@@ -1,13 +1,13 @@
 <?php
-    $db='db_x';
-    $host='localhost';
-    $username='root';
-    $password='';
-    $conn=mysqli_connect($host,$username,$password,$db);
-    if($conn->connect_error){
-        die("Connection failed:".$conn->connect_error);
+    $severname="localhost";
+    $username="root";
+    $password="";
+    $database="db_x";
+
+    $connect= new mysqli($severname,$username,$password,$database);
+    if(mysqli_connect_errno()){
+        echo "loi ket noi".mysqli_connect_error();
+        exit();
     }
-    else{
-        echo "Connected successfully";
-    }
+    
 ?>

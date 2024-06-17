@@ -1,0 +1,24 @@
+
+    .readonly-input {
+        background-color: #f0f0f0; /* Màu nền xám nhạt */
+        border: 1px solid #ccc; /* Đường viền xám nhạt */
+        cursor: not-allowed; /* Đổi con trỏ khi di chuột qua */
+    }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .action-links {
+            white-space: nowrap; /* Để các liên kết không bị ngắt dòng */
+        }
+        .action-links a {
+            margin-right: 10px; /* Để các liên kết cách nhau */
+        }
