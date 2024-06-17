@@ -9,6 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ngay_sinh = trim($_POST["ngay_sinh"]);
     $email = trim($_POST["email"]);
     $sdt = trim($_POST["sdt"]);
+    $ten_nd = trim($_POST["ten_nd"]);
 
     // Kiểm tra dữ liệu đầu vào
     if (!preg_match("/^[a-zA-Z0-9]+$/", $ten_tk)) {
@@ -33,8 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $ma_tk = uniqid();
 
             // Thêm người dùng vào cơ sở dữ liệu
-            $stmt = $conn->prepare("INSERT INTO taikhoan (MaTK, TenTK, MatKhau, DiaChi, NgaySinh, Email, SDT) VALUES (?, ?, ?, ?, ?, ?, ?)");
-            $stmt->bind_param("sssssss", $ma_tk, $ten_tk, $mat_khau, $dia_chi, $ngay_sinh, $email, $sdt);
+            $stmt = $conn->prepare("INSERT INTO taikhoan (MaTK, TenTK, MatKhau, DiaChi, NgaySinh, Email, SDT, TenNguoiDung) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt->bind_param("ssssssss", $ma_tk, $ten_tk, $mat_khau, $dia_chi, $ngay_sinh, $email, $sdt, $ten_nd);
             if ($stmt->execute()) {
                 // Hiển thị thông báo và chuyển hướng đến trang đăng nhập
                 echo "<script>alert('Đăng ký thành công. Bạn sẽ được chuyển hướng đến trang đăng nhập.'); window.location.href = 'login.php';</script>";
@@ -90,7 +91,8 @@ $conn->close();
         .container input[type="text"],
         .container input[type="password"],
         .container input[type="email"],
-        .container input[type="date"] {
+        .container input[type="date"],
+        .container input[type="ten_nd"] {
             width: 100%;
             padding: 8px;
             margin-bottom: 10px;
@@ -138,6 +140,9 @@ $conn->close();
                 
                 <label for="sdt">Số điện thoại:</label>
                 <input type="text" id="sdt" name="sdt" required><br>
+
+                <label for="ten_nd">Tên người dùng</label>
+                <input type="text" id="ten_nd" name="ten_nd" require><br>
                 
                 <input type="submit" value="Đăng ký">
             </fieldset>
