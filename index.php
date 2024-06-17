@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,10 +27,10 @@
     <div class="wrapper">
         <?php
             session_start();
-            $MaTK=1;
+            $MaTK=10;
         ?>
         <a href="./views/BaoTriTaiKhoan/listTK.php">Bảo trì tài khoản</a>
-        <a href="./views/XemThongTin/XemTK.php?id=<?php echo $MaTK?>">Xem Thông Tin</a>
+        <a href="./views/XemThongTin/XemTK.php?id=<?php echo $MaTK;?>">Xem Thông Tin</a>
     </div>
 </body>
 <!-- <script type="text/javascript" src="js/modal.js"></script> -->

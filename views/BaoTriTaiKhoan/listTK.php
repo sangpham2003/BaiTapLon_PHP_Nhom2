@@ -51,14 +51,14 @@ $result = $TaiKhoanModel->getListTK();
                     </td>
                     <script>
     function confirmDelete(id) {
-        if (confirm("Bạn có chắc chắn muốn xóa?")) {
-            // Nếu người dùng xác nhận, chuyển hướng đến URL xóa
-            window.location.href = "../../controllers/BaoTriTaiKhoanController.php?query=xoa&id=" + id;
-        } else {
-            // Người dùng đã huỷ bỏ xóa
-            // Không cần làm gì
-        }
+    if (confirm("Bạn có chắc chắn muốn xóa?")) {
+        // Nếu người dùng xác nhận, chuyển hướng đến URL xóa
+        window.location.href = "../../controllers/BaoTriTaiKhoanController.php?query=xoa&id=" + id;
+    } else {
+        // Người dùng đã huỷ bỏ xóa
+        // Không cần làm gì
     }
+}
 </script>
                 </tr>
             <?php endforeach; ?>
