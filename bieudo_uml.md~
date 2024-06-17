@@ -3735,14 +3735,14 @@
 						ordinal    	21
 						quidu      	"5B21518F0242"
 						creation   	FALSE)
-					    (object Message "s"
+					    (object Message "doc bang TAIKHOAN( )"
 						quid       	"5B21596202DE"
 						frequency  	"Aperiodic"
 						synchronization 	"Simple"
 						dir        	"FromClientToSupplier"
 						sequence   	"33"
 						ordinal    	32
-						quidu      	"000000000000"
+						quidu      	"5B21518F0242"
 						creation   	FALSE)
 					    (object Message "doc bang TAIKHOAN( )"
 						quid       	"5B2159E50177"
@@ -4258,7 +4258,7 @@
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
-				location   	(1708, 1112)
+				location   	(1708, 1162)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -4270,7 +4270,7 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@179
-				    location   	(1559, 753)
+				    location   	(1559, 803)
 				    fill_color 	13434879
 				    nlines     	1
 				    max_width  	298
@@ -4278,7 +4278,7 @@
 				    label      	"TAIKHOAN")
 				stereotype 	(object ItemLabel
 				    Parent_View 	@179
-				    location   	(1559, 703)
+				    location   	(1559, 753)
 				    fill_color 	13434879
 				    anchor     	10
 				    nlines     	1
@@ -4292,7 +4292,7 @@
 				quidu      	"5B214F940213"
 				compartment 	(object Compartment
 				    Parent_View 	@179
-				    location   	(1559, 814)
+				    location   	(1559, 864)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -4313,34 +4313,34 @@
 				annotation 	8
 				autoResize 	TRUE)
 			    (object AssociationViewNew "" @180
-				location   	(1484, 735)
+				location   	(1479, 750)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5B21554F004E"
 				roleview_list 	(list RoleViews
 				    (object RoleView "" @181
 					Parent_View 	@180
-					location   	(282, 33)
+					location   	(277, 48)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21554F0158"
 					client     	@180
 					supplier   	@179
 					vertices   	(list Points
-					    (1484, 735)
-					    (1549, 845))
+					    (1479, 750)
+					    (1549, 876))
 					line_style 	0)
 				    (object RoleView "" @182
 					Parent_View 	@180
-					location   	(282, 33)
+					location   	(277, 48)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21554F015A"
 					client     	@180
 					supplier   	@172
 					vertices   	(list Points
-					    (1484, 735)
-					    (1419, 625))
+					    (1479, 750)
+					    (1410, 625))
 					line_style 	0)))))
 		    (object InteractionDiagram "NewDiagram4"
 			mechanism_ref 	@169
@@ -4350,7 +4350,7 @@
 			max_height 	28350
 			max_width  	21600
 			origin_x   	0
-			origin_y   	1787
+			origin_y   	0
 			items      	(list diagram_item_list
 			    (object InterObjView "$UNNAMED$77" @183
 				location   	(180, 225)
@@ -4377,7 +4377,7 @@
 				fill_color 	13434879
 				quidu      	"5B2155B9039A"
 				width      	300
-				height     	7033
+				height     	6284
 				icon_height 	150
 				icon_width 	108
 				icon_y_offset 	0
@@ -4397,70 +4397,70 @@
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @186
-				    location   	(180, 1870)
+				    location   	(180, 1563)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @187
-				    location   	(180, 1990)
+				    location   	(180, 1719)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @188
-				    location   	(180, 3077)
+				    location   	(180, 2806)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @189
-				    location   	(180, 3221)
+				    location   	(180, 2950)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @190
-				    location   	(180, 4389)
+				    location   	(180, 3869)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @191
-				    location   	(180, 4537)
+				    location   	(180, 4017)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @192
-				    location   	(180, 4825)
+				    location   	(180, 4305)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @193
-				    location   	(180, 5759)
+				    location   	(180, 5178)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @194
-				    location   	(180, 5891)
+				    location   	(180, 5310)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @195
-				    location   	(180, 6146)
+				    location   	(180, 5565)
 				    line_color 	3342489
 				    InterObjView 	@183
 				    height     	90
@@ -4491,7 +4491,7 @@
 				fill_color 	13434879
 				quidu      	"5B2155AA0223"
 				width      	300
-				height     	7033
+				height     	6284
 				icon_height 	141
 				icon_width 	217
 				icon_y_offset 	0
@@ -4553,210 +4553,210 @@
 				    y_coord    	0
 				    Nested     	TRUE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @205
-				    location   	(819, 1870)
+				    location   	(819, 1563)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @206
-				    location   	(819, 1990)
+				    location   	(819, 1719)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @207
-				    location   	(819, 2119)
+				    location   	(819, 1848)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @208
-				    location   	(819, 2761)
+				    location   	(819, 2490)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @209
-				    location   	(819, 2908)
+				    location   	(819, 2637)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @210
-				    location   	(819, 2933)
+				    location   	(819, 2662)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	TRUE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @211
-				    location   	(819, 3077)
+				    location   	(819, 2806)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @212
-				    location   	(819, 3221)
+				    location   	(819, 2950)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @213
-				    location   	(819, 3601)
+				    location   	(819, 3072)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @214
-				    location   	(819, 4086)
+				    location   	(819, 3566)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @215
-				    location   	(819, 4234)
+				    location   	(819, 3714)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @216
-				    location   	(819, 4259)
+				    location   	(819, 3739)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	TRUE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @217
-				    location   	(819, 4389)
+				    location   	(819, 3869)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @218
-				    location   	(819, 4537)
+				    location   	(819, 4017)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @219
-				    location   	(819, 4642)
+				    location   	(819, 4122)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @220
-				    location   	(819, 4667)
+				    location   	(819, 4147)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	TRUE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @221
-				    location   	(819, 4825)
+				    location   	(819, 4305)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @222
-				    location   	(819, 4945)
+				    location   	(819, 4425)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @223
-				    location   	(819, 5506)
+				    location   	(819, 4925)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @224
-				    location   	(819, 5629)
+				    location   	(819, 5048)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @225
-				    location   	(819, 5654)
+				    location   	(819, 5073)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	TRUE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @226
-				    location   	(819, 5759)
+				    location   	(819, 5178)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @227
-				    location   	(819, 5891)
+				    location   	(819, 5310)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @228
-				    location   	(819, 5996)
+				    location   	(819, 5415)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @229
-				    location   	(819, 6021)
+				    location   	(819, 5440)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	TRUE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @230
-				    location   	(819, 6146)
+				    location   	(819, 5565)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @231
-				    location   	(819, 6276)
+				    location   	(819, 5695)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @232
-				    location   	(819, 6916)
+				    location   	(819, 6167)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @233
-				    location   	(819, 7053)
+				    location   	(819, 6304)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @234
-				    location   	(819, 7078)
+				    location   	(819, 6329)
 				    line_color 	3342489
 				    InterObjView 	@196
 				    height     	90
@@ -4787,7 +4787,7 @@
 				fill_color 	13434879
 				quidu      	"5B2155AB02CF"
 				width      	300
-				height     	7033
+				height     	6284
 				icon_height 	152
 				icon_width 	145
 				icon_y_offset 	0
@@ -4821,119 +4821,119 @@
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @240
-				    location   	(1457, 2119)
+				    location   	(1457, 1848)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @241
-				    location   	(1457, 2240)
+				    location   	(1457, 1969)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @242
-				    location   	(1457, 2378)
+				    location   	(1457, 2107)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @243
-				    location   	(1457, 2628)
+				    location   	(1457, 2357)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @244
-				    location   	(1457, 2761)
+				    location   	(1457, 2490)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @245
-				    location   	(1457, 3601)
+				    location   	(1457, 3072)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @246
-				    location   	(1457, 3721)
+				    location   	(1457, 3201)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @247
-				    location   	(1457, 3953)
+				    location   	(1457, 3433)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @248
-				    location   	(1457, 4086)
+				    location   	(1457, 3566)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @249
-				    location   	(1457, 4945)
+				    location   	(1457, 4425)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @250
-				    location   	(1457, 5065)
+				    location   	(1457, 4545)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @251
-				    location   	(1457, 5386)
+				    location   	(1457, 4698)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @252
-				    location   	(1457, 5506)
+				    location   	(1457, 4925)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @253
-				    location   	(1457, 6276)
+				    location   	(1457, 5695)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @254
-				    location   	(1457, 6396)
+				    location   	(1457, 5815)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @255
-				    location   	(1457, 6689)
+				    location   	(1457, 5940)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @256
-				    location   	(1457, 6916)
+				    location   	(1457, 6167)
 				    line_color 	3342489
 				    InterObjView 	@235
 				    height     	90
@@ -4964,7 +4964,7 @@
 				fill_color 	13434879
 				quidu      	"5B215624000F"
 				width      	300
-				height     	7033
+				height     	6284
 				icon_height 	141
 				icon_width 	142
 				icon_y_offset 	0
@@ -4977,35 +4977,35 @@
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @259
-				    location   	(1916, 2240)
+				    location   	(1916, 1969)
 				    line_color 	3342489
 				    InterObjView 	@257
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @260
-				    location   	(1916, 2628)
+				    location   	(1916, 2357)
 				    line_color 	3342489
 				    InterObjView 	@257
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @261
-				    location   	(1916, 3953)
+				    location   	(1916, 3433)
 				    line_color 	3342489
 				    InterObjView 	@257
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @262
-				    location   	(1916, 5065)
+				    location   	(1916, 4545)
 				    line_color 	3342489
 				    InterObjView 	@257
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @263
-				    location   	(1916, 6396)
+				    location   	(1916, 5815)
 				    line_color 	3342489
 				    InterObjView 	@257
 				    height     	90
@@ -5036,7 +5036,7 @@
 				fill_color 	13434879
 				quidu      	"5B2155B10177"
 				width      	300
-				height     	7033
+				height     	6284
 				icon_height 	141
 				icon_width 	217
 				icon_y_offset 	0
@@ -5056,56 +5056,56 @@
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @267
-				    location   	(2405, 2378)
+				    location   	(2405, 2107)
 				    line_color 	3342489
 				    InterObjView 	@264
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @268
-				    location   	(2405, 2502)
+				    location   	(2405, 2231)
 				    line_color 	3342489
 				    InterObjView 	@264
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @269
-				    location   	(2405, 3721)
+				    location   	(2405, 3201)
 				    line_color 	3342489
 				    InterObjView 	@264
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @270
-				    location   	(2405, 3848)
+				    location   	(2405, 3328)
 				    line_color 	3342489
 				    InterObjView 	@264
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @271
-				    location   	(2405, 5386)
+				    location   	(2405, 4698)
 				    line_color 	3342489
 				    InterObjView 	@264
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @272
-				    location   	(2405, 5506)
+				    location   	(2405, 4818)
 				    line_color 	3342489
 				    InterObjView 	@264
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @273
-				    location   	(2405, 6689)
+				    location   	(2405, 5940)
 				    line_color 	3342489
 				    InterObjView 	@264
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @274
-				    location   	(2405, 6811)
+				    location   	(2405, 6062)
 				    line_color 	3342489
 				    InterObjView 	@264
 				    height     	90
@@ -5136,7 +5136,7 @@
 				fill_color 	13434879
 				quidu      	"5B2155BB031D"
 				width      	300
-				height     	7014
+				height     	6265
 				icon_height 	150
 				icon_width 	108
 				icon_y_offset 	0
@@ -5149,28 +5149,28 @@
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @277
-				    location   	(2829, 2502)
+				    location   	(2829, 2231)
 				    line_color 	3342489
 				    InterObjView 	@275
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @278
-				    location   	(2829, 3848)
+				    location   	(2829, 3328)
 				    line_color 	3342489
 				    InterObjView 	@275
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @279
-				    location   	(2829, 5506)
+				    location   	(2829, 4818)
 				    line_color 	3342489
 				    InterObjView 	@275
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @280
-				    location   	(2829, 6811)
+				    location   	(2829, 6062)
 				    line_color 	3342489
 				    InterObjView 	@275
 				    height     	90
@@ -5202,7 +5202,7 @@
 				    quidu      	"5B2155CE02FE"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	518
+				    max_width  	516
 				    justify    	0
 				    label      	
 |chon "Bao tri Tai Khoan"( )
@@ -5244,7 +5244,7 @@
 				    quidu      	"5B2155E2009D"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	302
+				    max_width  	301
 				    justify    	0
 				    label      	"listTaiKhoan( )"
 				    pctDist    	0.500000
@@ -5284,7 +5284,7 @@
 				    quidu      	"5B21560D005F"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	462
+				    max_width  	460
 				    justify    	0
 				    label      	"doc bang TAIKHOAN( )"
 				    pctDist    	0.500000
@@ -5324,7 +5324,7 @@
 				    quidu      	"5B215629036C"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	462
+				    max_width  	460
 				    justify    	0
 				    label      	"doc bang TAIKHOAN( )"
 				    pctDist    	0.500000
@@ -5364,7 +5364,7 @@
 				    quidu      	"5B2156340281"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	258
+				    max_width  	257
 				    justify    	0
 				    label      	"getListTK( )"
 				    pctDist    	0.500000
@@ -5404,7 +5404,7 @@
 				    quidu      	"5B2156470242"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	296
+				    max_width  	284
 				    justify    	0
 				    label      	"return ket qua"
 				    pctDist    	0.500000
@@ -5444,7 +5444,7 @@
 				    quidu      	"5B215661009D"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	412
+				    max_width  	410
 				    justify    	0
 				    label      	"hien thi danh sach( )"
 				    pctDist    	0.500000
@@ -5484,7 +5484,7 @@
 				    quidu      	"5B21567B032C"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	306
+				    max_width  	304
 				    justify    	0
 				    label      	
 |chon "them"( )
@@ -5526,7 +5526,7 @@
 				    quidu      	"5B21568A01C5"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	330
+				    max_width  	329
 				    justify    	0
 				    label      	"form thong tin( )"
 				    pctDist    	0.500000
@@ -5541,7 +5541,7 @@
 				terminus   	(985, 1425)
 				ordinal    	8)
 			    (object InterMessView "dien thong tin" @299
-				location   	(0, 1870)
+				location   	(0, 1563)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5553,7 +5553,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @300
 				    Parent_View 	@299
-				    location   	(499, 1826)
+				    location   	(499, 1519)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5566,7 +5566,7 @@
 				    quidu      	"5B2156D800EA"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	312
+				    max_width  	300
 				    justify    	0
 				    label      	"dien thong tin"
 				    pctDist    	0.500000
@@ -5577,11 +5577,11 @@
 				supplier   	@196
 				Focus_Src  	@186
 				Focus_Entry 	@205
-				origin     	(195, 1870)
-				terminus   	(803, 1870)
+				origin     	(195, 1563)
+				terminus   	(803, 1563)
 				ordinal    	9)
 			    (object InterMessView "chon \"them tk\"( )" @301
-				location   	(0, 1990)
+				location   	(0, 1719)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5593,7 +5593,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @302
 				    Parent_View 	@301
-				    location   	(499, 1946)
+				    location   	(499, 1675)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5606,7 +5606,7 @@
 				    quidu      	"5B2156E102AF"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	370
+				    max_width  	369
 				    justify    	0
 				    label      	
 |chon "them tk"( )
@@ -5619,11 +5619,11 @@
 				supplier   	@196
 				Focus_Src  	@187
 				Focus_Entry 	@206
-				origin     	(195, 1990)
-				terminus   	(803, 1990)
+				origin     	(195, 1719)
+				terminus   	(803, 1719)
 				ordinal    	10)
 			    (object InterMessView "addTKMoi( )" @303
-				location   	(0, 2119)
+				location   	(0, 1848)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5635,7 +5635,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @304
 				    Parent_View 	@303
-				    location   	(1137, 2075)
+				    location   	(1137, 1804)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5648,7 +5648,7 @@
 				    quidu      	"5B21571A0138"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	290
+				    max_width  	288
 				    justify    	0
 				    label      	"addTKMoi( )"
 				    pctDist    	0.500000
@@ -5659,11 +5659,11 @@
 				supplier   	@235
 				Focus_Src  	@207
 				Focus_Entry 	@240
-				origin     	(834, 2119)
-				terminus   	(1441, 2119)
+				origin     	(834, 1848)
+				terminus   	(1441, 1848)
 				ordinal    	11)
 			    (object InterMessView "addTK( )" @305
-				location   	(0, 2240)
+				location   	(0, 1969)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5675,7 +5675,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @306
 				    Parent_View 	@305
-				    location   	(1686, 2196)
+				    location   	(1686, 1925)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5688,7 +5688,7 @@
 				    quidu      	"5B2157510280"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	224
+				    max_width  	223
 				    justify    	0
 				    label      	"addTK( )"
 				    pctDist    	0.500000
@@ -5699,11 +5699,11 @@
 				supplier   	@257
 				Focus_Src  	@241
 				Focus_Entry 	@259
-				origin     	(1472, 2240)
-				terminus   	(1900, 2240)
+				origin     	(1472, 1969)
+				terminus   	(1900, 1969)
 				ordinal    	12)
 			    (object InterMessView "doc bang TAIKHOAN( )" @307
-				location   	(0, 2378)
+				location   	(0, 2107)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5715,7 +5715,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @308
 				    Parent_View 	@307
-				    location   	(1930, 2334)
+				    location   	(1930, 2063)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5728,7 +5728,7 @@
 				    quidu      	"5B2157AC031D"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	484
+				    max_width  	482
 				    justify    	0
 				    label      	"doc bang TAIKHOAN( )"
 				    pctDist    	0.500000
@@ -5739,11 +5739,11 @@
 				supplier   	@264
 				Focus_Src  	@242
 				Focus_Entry 	@267
-				origin     	(1472, 2378)
-				terminus   	(2389, 2378)
+				origin     	(1472, 2107)
+				terminus   	(2389, 2107)
 				ordinal    	13)
 			    (object InterMessView "doc bang TAIKHOAN( )" @309
-				location   	(0, 2502)
+				location   	(0, 2231)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5755,7 +5755,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @310
 				    Parent_View 	@309
-				    location   	(2616, 2458)
+				    location   	(2616, 2187)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5768,7 +5768,7 @@
 				    quidu      	"5B2157B200BB"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	484
+				    max_width  	482
 				    justify    	0
 				    label      	"doc bang TAIKHOAN( )"
 				    pctDist    	0.500000
@@ -5779,11 +5779,11 @@
 				supplier   	@275
 				Focus_Src  	@268
 				Focus_Entry 	@277
-				origin     	(2420, 2502)
-				terminus   	(2813, 2502)
+				origin     	(2420, 2231)
+				terminus   	(2813, 2231)
 				ordinal    	14)
 			    (object InterMessView "getListTK( )" @311
-				location   	(0, 2628)
+				location   	(0, 2357)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5795,7 +5795,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @312
 				    Parent_View 	@311
-				    location   	(1686, 2584)
+				    location   	(1686, 2313)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5808,7 +5808,7 @@
 				    quidu      	"5B2157C1034C"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	280
+				    max_width  	279
 				    justify    	0
 				    label      	"getListTK( )"
 				    pctDist    	0.500000
@@ -5819,11 +5819,11 @@
 				supplier   	@257
 				Focus_Src  	@243
 				Focus_Entry 	@260
-				origin     	(1472, 2628)
-				terminus   	(1900, 2628)
+				origin     	(1472, 2357)
+				terminus   	(1900, 2357)
 				ordinal    	15)
 			    (object InterMessView "return ket qua" @313
-				location   	(0, 2761)
+				location   	(0, 2490)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5835,7 +5835,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @314
 				    Parent_View 	@313
-				    location   	(1138, 2717)
+				    location   	(1138, 2446)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5848,7 +5848,7 @@
 				    quidu      	"5B2157C80167"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	318
+				    max_width  	306
 				    justify    	0
 				    label      	"return ket qua"
 				    pctDist    	0.500000
@@ -5859,11 +5859,11 @@
 				supplier   	@196
 				Focus_Src  	@244
 				Focus_Entry 	@208
-				origin     	(1441, 2761)
-				terminus   	(835, 2761)
+				origin     	(1441, 2490)
+				terminus   	(835, 2490)
 				ordinal    	16)
 			    (object SelfMessView "thanh cong( )" @315
-				location   	(0, 2908)
+				location   	(0, 2637)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5875,7 +5875,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @316
 				    Parent_View 	@315
-				    location   	(910, 2864)
+				    location   	(910, 2593)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5888,7 +5888,7 @@
 				    quidu      	"5B2157D6005E"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	306
+				    max_width  	304
 				    justify    	0
 				    label      	"thanh cong( )"
 				    pctDist    	0.500000
@@ -5899,11 +5899,11 @@
 				supplier   	@196
 				Focus_Src  	@209
 				Focus_Entry 	@210
-				origin     	(835, 2908)
-				terminus   	(985, 2908)
+				origin     	(835, 2637)
+				terminus   	(985, 2637)
 				ordinal    	17)
 			    (object InterMessView "chon 1 tk" @317
-				location   	(0, 3077)
+				location   	(0, 2806)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5915,7 +5915,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @318
 				    Parent_View 	@317
-				    location   	(499, 3033)
+				    location   	(499, 2762)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5928,7 +5928,7 @@
 				    quidu      	"5B21581A02DE"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	240
+				    max_width  	228
 				    justify    	0
 				    label      	"chon 1 tk"
 				    pctDist    	0.500000
@@ -5939,11 +5939,11 @@
 				supplier   	@196
 				Focus_Src  	@188
 				Focus_Entry 	@211
-				origin     	(195, 3077)
-				terminus   	(803, 3077)
+				origin     	(195, 2806)
+				terminus   	(803, 2806)
 				ordinal    	18)
 			    (object InterMessView "chon 1 tai khoan( )" @319
-				location   	(0, 3221)
+				location   	(0, 2950)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5955,7 +5955,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @320
 				    Parent_View 	@319
-				    location   	(499, 3177)
+				    location   	(499, 2906)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -5968,7 +5968,7 @@
 				    quidu      	"5B215846039A"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	402
+				    max_width  	401
 				    justify    	0
 				    label      	"chon 1 tai khoan( )"
 				    pctDist    	0.500000
@@ -5979,11 +5979,11 @@
 				supplier   	@196
 				Focus_Src  	@189
 				Focus_Entry 	@212
-				origin     	(195, 3221)
-				terminus   	(803, 3221)
+				origin     	(195, 2950)
+				terminus   	(803, 2950)
 				ordinal    	19)
 			    (object InterMessView "layThongTin( )" @321
-				location   	(0, 3601)
+				location   	(0, 3072)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -5995,7 +5995,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @322
 				    Parent_View 	@321
-				    location   	(1137, 3557)
+				    location   	(1137, 3028)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6008,7 +6008,7 @@
 				    quidu      	"5B21586B0280"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	320
+				    max_width  	319
 				    justify    	0
 				    label      	"layThongTin( )"
 				    pctDist    	0.500000
@@ -6019,11 +6019,11 @@
 				supplier   	@235
 				Focus_Src  	@213
 				Focus_Entry 	@245
-				origin     	(834, 3601)
-				terminus   	(1441, 3601)
+				origin     	(834, 3072)
+				terminus   	(1441, 3072)
 				ordinal    	20)
 			    (object InterMessView "doc bang TAIKHOAN( )" @323
-				location   	(0, 3721)
+				location   	(0, 3201)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6035,7 +6035,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @324
 				    Parent_View 	@323
-				    location   	(1930, 3677)
+				    location   	(1930, 3157)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6048,7 +6048,7 @@
 				    quidu      	"5B21588E030D"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	484
+				    max_width  	482
 				    justify    	0
 				    label      	"doc bang TAIKHOAN( )"
 				    pctDist    	0.500000
@@ -6059,11 +6059,11 @@
 				supplier   	@264
 				Focus_Src  	@246
 				Focus_Entry 	@269
-				origin     	(1472, 3721)
-				terminus   	(2389, 3721)
+				origin     	(1472, 3201)
+				terminus   	(2389, 3201)
 				ordinal    	21)
 			    (object InterMessView "doc bang TAIKHOAN( )" @325
-				location   	(0, 3848)
+				location   	(0, 3328)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6075,7 +6075,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @326
 				    Parent_View 	@325
-				    location   	(2616, 3804)
+				    location   	(2616, 3284)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6088,7 +6088,7 @@
 				    quidu      	"5B21589302AF"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	484
+				    max_width  	482
 				    justify    	0
 				    label      	"doc bang TAIKHOAN( )"
 				    pctDist    	0.500000
@@ -6099,11 +6099,11 @@
 				supplier   	@275
 				Focus_Src  	@270
 				Focus_Entry 	@278
-				origin     	(2420, 3848)
-				terminus   	(2813, 3848)
+				origin     	(2420, 3328)
+				terminus   	(2813, 3328)
 				ordinal    	22)
 			    (object InterMessView "getTK( )" @327
-				location   	(0, 3953)
+				location   	(0, 3433)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6115,7 +6115,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @328
 				    Parent_View 	@327
-				    location   	(1686, 3909)
+				    location   	(1686, 3389)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6128,7 +6128,7 @@
 				    quidu      	"5B2158A601B5"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	218
+				    max_width  	216
 				    justify    	0
 				    label      	"getTK( )"
 				    pctDist    	0.500000
@@ -6139,11 +6139,11 @@
 				supplier   	@257
 				Focus_Src  	@247
 				Focus_Entry 	@261
-				origin     	(1472, 3953)
-				terminus   	(1900, 3953)
+				origin     	(1472, 3433)
+				terminus   	(1900, 3433)
 				ordinal    	23)
 			    (object InterMessView "return ket qua" @329
-				location   	(0, 4086)
+				location   	(0, 3566)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6155,7 +6155,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @330
 				    Parent_View 	@329
-				    location   	(1138, 4042)
+				    location   	(1138, 3522)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6168,7 +6168,7 @@
 				    quidu      	"5B2158B1033C"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	318
+				    max_width  	306
 				    justify    	0
 				    label      	"return ket qua"
 				    pctDist    	0.500000
@@ -6179,11 +6179,11 @@
 				supplier   	@196
 				Focus_Src  	@248
 				Focus_Entry 	@214
-				origin     	(1441, 4086)
-				terminus   	(835, 4086)
+				origin     	(1441, 3566)
+				terminus   	(835, 3566)
 				ordinal    	24)
 			    (object SelfMessView "hien thi thong tin tai khoan( )" @331
-				location   	(0, 4234)
+				location   	(0, 3714)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6195,7 +6195,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @332
 				    Parent_View 	@331
-				    location   	(910, 4190)
+				    location   	(910, 3670)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6208,7 +6208,7 @@
 				    quidu      	"5B2158C0031D"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	574
+				    max_width  	569
 				    justify    	0
 				    label      	"hien thi thong tin tai khoan( )"
 				    pctDist    	0.500000
@@ -6219,11 +6219,11 @@
 				supplier   	@196
 				Focus_Src  	@215
 				Focus_Entry 	@216
-				origin     	(835, 4234)
-				terminus   	(985, 4234)
+				origin     	(835, 3714)
+				terminus   	(985, 3714)
 				ordinal    	25)
 			    (object InterMessView "sua thong tin" @333
-				location   	(0, 4389)
+				location   	(0, 3869)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6235,7 +6235,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @334
 				    Parent_View 	@333
-				    location   	(499, 4345)
+				    location   	(499, 3825)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6248,7 +6248,7 @@
 				    quidu      	"5B21592E031D"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	302
+				    max_width  	291
 				    justify    	0
 				    label      	"sua thong tin"
 				    pctDist    	0.500000
@@ -6259,11 +6259,11 @@
 				supplier   	@196
 				Focus_Src  	@190
 				Focus_Entry 	@217
-				origin     	(195, 4389)
-				terminus   	(803, 4389)
+				origin     	(195, 3869)
+				terminus   	(803, 3869)
 				ordinal    	26)
 			    (object InterMessView "chon \"luu\"( )" @335
-				location   	(0, 4537)
+				location   	(0, 4017)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6275,7 +6275,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @336
 				    Parent_View 	@335
-				    location   	(499, 4493)
+				    location   	(499, 3973)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6288,7 +6288,7 @@
 				    quidu      	"5B215939003E"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	290
+				    max_width  	288
 				    justify    	0
 				    label      	
 |chon "luu"( )
@@ -6301,11 +6301,11 @@
 				supplier   	@196
 				Focus_Src  	@191
 				Focus_Entry 	@218
-				origin     	(195, 4537)
-				terminus   	(803, 4537)
+				origin     	(195, 4017)
+				terminus   	(803, 4017)
 				ordinal    	27)
 			    (object InterMessView "updateTK( )" @337
-				location   	(0, 4945)
+				location   	(0, 4425)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6317,7 +6317,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @338
 				    Parent_View 	@337
-				    location   	(1137, 4901)
+				    location   	(1137, 4381)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6330,7 +6330,7 @@
 				    quidu      	"5B21594802CF"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	280
+				    max_width  	279
 				    justify    	0
 				    label      	"updateTK( )"
 				    pctDist    	0.500000
@@ -6341,11 +6341,11 @@
 				supplier   	@235
 				Focus_Src  	@222
 				Focus_Entry 	@249
-				origin     	(834, 4945)
-				terminus   	(1441, 4945)
+				origin     	(834, 4425)
+				terminus   	(1441, 4425)
 				ordinal    	30)
 			    (object InterMessView "updateTK( )" @339
-				location   	(0, 5065)
+				location   	(0, 4545)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6357,7 +6357,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @340
 				    Parent_View 	@339
-				    location   	(1686, 5021)
+				    location   	(1686, 4501)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6370,7 +6370,7 @@
 				    quidu      	"5B2159550203"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	280
+				    max_width  	279
 				    justify    	0
 				    label      	"updateTK( )"
 				    pctDist    	0.500000
@@ -6381,11 +6381,11 @@
 				supplier   	@257
 				Focus_Src  	@250
 				Focus_Entry 	@262
-				origin     	(1472, 5065)
-				terminus   	(1900, 5065)
+				origin     	(1472, 4545)
+				terminus   	(1900, 4545)
 				ordinal    	31)
-			    (object InterMessView "s" @341
-				location   	(0, 5386)
+			    (object InterMessView "doc bang TAIKHOAN( )" @341
+				location   	(0, 4698)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6397,7 +6397,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @342
 				    Parent_View 	@341
-				    location   	(1929, 5353)
+				    location   	(1930, 4654)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6410,22 +6410,22 @@
 				    quidu      	"5B21596202DE"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	88
+				    max_width  	482
 				    justify    	0
-				    label      	"s"
-				    pctDist    	0.499455
-				    height     	34
+				    label      	"doc bang TAIKHOAN( )"
+				    pctDist    	0.500000
+				    height     	45
 				    orientation 	0)
 				line_color 	3342489
 				client     	@235
 				supplier   	@264
 				Focus_Src  	@251
 				Focus_Entry 	@271
-				origin     	(1472, 5386)
-				terminus   	(2389, 5386)
+				origin     	(1472, 4698)
+				terminus   	(2389, 4698)
 				ordinal    	32)
 			    (object InterMessView "doc bang TAIKHOAN( )" @343
-				location   	(0, 5506)
+				location   	(0, 4818)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6437,7 +6437,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @344
 				    Parent_View 	@343
-				    location   	(2616, 5462)
+				    location   	(2616, 4774)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6450,7 +6450,7 @@
 				    quidu      	"5B215967036B"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	484
+				    max_width  	482
 				    justify    	0
 				    label      	"doc bang TAIKHOAN( )"
 				    pctDist    	0.500000
@@ -6461,11 +6461,11 @@
 				supplier   	@275
 				Focus_Src  	@272
 				Focus_Entry 	@279
-				origin     	(2420, 5506)
-				terminus   	(2813, 5506)
+				origin     	(2420, 4818)
+				terminus   	(2813, 4818)
 				ordinal    	33)
 			    (object InterMessView "return ket qua" @345
-				location   	(0, 5506)
+				location   	(0, 4925)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6477,7 +6477,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @346
 				    Parent_View 	@345
-				    location   	(1138, 5462)
+				    location   	(1138, 4881)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6490,7 +6490,7 @@
 				    quidu      	"5B215991000F"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	318
+				    max_width  	306
 				    justify    	0
 				    label      	"return ket qua"
 				    pctDist    	0.500000
@@ -6501,11 +6501,11 @@
 				supplier   	@196
 				Focus_Src  	@252
 				Focus_Entry 	@223
-				origin     	(1441, 5506)
-				terminus   	(835, 5506)
+				origin     	(1441, 4925)
+				terminus   	(835, 4925)
 				ordinal    	34)
 			    (object SelfMessView "thanh cong( )" @347
-				location   	(0, 5629)
+				location   	(0, 5048)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6517,7 +6517,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @348
 				    Parent_View 	@347
-				    location   	(910, 5585)
+				    location   	(910, 5004)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6530,7 +6530,7 @@
 				    quidu      	"5B21599B0280"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	306
+				    max_width  	304
 				    justify    	0
 				    label      	"thanh cong( )"
 				    pctDist    	0.500000
@@ -6541,11 +6541,11 @@
 				supplier   	@196
 				Focus_Src  	@224
 				Focus_Entry 	@225
-				origin     	(835, 5629)
-				terminus   	(985, 5629)
+				origin     	(835, 5048)
+				terminus   	(985, 5048)
 				ordinal    	35)
 			    (object InterMessView "chon 1 hoac nhieu tk" @349
-				location   	(0, 5759)
+				location   	(0, 5178)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6557,7 +6557,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @350
 				    Parent_View 	@349
-				    location   	(499, 5715)
+				    location   	(499, 5134)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6570,7 +6570,7 @@
 				    quidu      	"5B2159AC01D5"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	440
+				    max_width  	428
 				    justify    	0
 				    label      	"chon 1 hoac nhieu tk"
 				    pctDist    	0.500000
@@ -6581,11 +6581,11 @@
 				supplier   	@196
 				Focus_Src  	@193
 				Focus_Entry 	@226
-				origin     	(195, 5759)
-				terminus   	(803, 5759)
+				origin     	(195, 5178)
+				terminus   	(803, 5178)
 				ordinal    	36)
 			    (object InterMessView "chon \"xoa\"( )" @351
-				location   	(0, 5891)
+				location   	(0, 5310)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6597,7 +6597,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @352
 				    Parent_View 	@351
-				    location   	(499, 5847)
+				    location   	(499, 5266)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6610,7 +6610,7 @@
 				    quidu      	"5B2159BE02A0"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	302
+				    max_width  	301
 				    justify    	0
 				    label      	
 |chon "xoa"( )
@@ -6623,11 +6623,11 @@
 				supplier   	@196
 				Focus_Src  	@194
 				Focus_Entry 	@227
-				origin     	(195, 5891)
-				terminus   	(803, 5891)
+				origin     	(195, 5310)
+				terminus   	(803, 5310)
 				ordinal    	37)
 			    (object InterMessView "deleteTK( )" @353
-				location   	(0, 6276)
+				location   	(0, 5695)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6639,7 +6639,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @354
 				    Parent_View 	@353
-				    location   	(1137, 6232)
+				    location   	(1137, 5651)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6652,7 +6652,7 @@
 				    quidu      	"5B2159C90158"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	268
+				    max_width  	266
 				    justify    	0
 				    label      	"deleteTK( )"
 				    pctDist    	0.500000
@@ -6663,11 +6663,11 @@
 				supplier   	@235
 				Focus_Src  	@231
 				Focus_Entry 	@253
-				origin     	(834, 6276)
-				terminus   	(1441, 6276)
+				origin     	(834, 5695)
+				terminus   	(1441, 5695)
 				ordinal    	40)
 			    (object InterMessView "deleteTK( )" @355
-				location   	(0, 6396)
+				location   	(0, 5815)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6679,7 +6679,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @356
 				    Parent_View 	@355
-				    location   	(1686, 6352)
+				    location   	(1686, 5771)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6692,7 +6692,7 @@
 				    quidu      	"5B2159DA006D"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	268
+				    max_width  	266
 				    justify    	0
 				    label      	"deleteTK( )"
 				    pctDist    	0.500000
@@ -6703,11 +6703,11 @@
 				supplier   	@257
 				Focus_Src  	@254
 				Focus_Entry 	@263
-				origin     	(1472, 6396)
-				terminus   	(1900, 6396)
+				origin     	(1472, 5815)
+				terminus   	(1900, 5815)
 				ordinal    	41)
 			    (object InterMessView "doc bang TAIKHOAN( )" @357
-				location   	(0, 6689)
+				location   	(0, 5940)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6719,7 +6719,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @358
 				    Parent_View 	@357
-				    location   	(1930, 6645)
+				    location   	(1930, 5896)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6732,7 +6732,7 @@
 				    quidu      	"5B2159E50177"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	484
+				    max_width  	482
 				    justify    	0
 				    label      	"doc bang TAIKHOAN( )"
 				    pctDist    	0.500000
@@ -6743,11 +6743,11 @@
 				supplier   	@264
 				Focus_Src  	@255
 				Focus_Entry 	@273
-				origin     	(1472, 6689)
-				terminus   	(2389, 6689)
+				origin     	(1472, 5940)
+				terminus   	(2389, 5940)
 				ordinal    	42)
 			    (object InterMessView "doc bang TAIKHOAN( )" @359
-				location   	(0, 6811)
+				location   	(0, 6062)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6759,7 +6759,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @360
 				    Parent_View 	@359
-				    location   	(2616, 6767)
+				    location   	(2616, 6018)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6772,7 +6772,7 @@
 				    quidu      	"5B2159E9001F"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	484
+				    max_width  	482
 				    justify    	0
 				    label      	"doc bang TAIKHOAN( )"
 				    pctDist    	0.500000
@@ -6783,11 +6783,11 @@
 				supplier   	@275
 				Focus_Src  	@274
 				Focus_Entry 	@280
-				origin     	(2420, 6811)
-				terminus   	(2813, 6811)
+				origin     	(2420, 6062)
+				terminus   	(2813, 6062)
 				ordinal    	43)
 			    (object InterMessView "return ket qua" @361
-				location   	(0, 6916)
+				location   	(0, 6167)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6799,7 +6799,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @362
 				    Parent_View 	@361
-				    location   	(1139, 6873)
+				    location   	(1139, 6124)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6812,7 +6812,7 @@
 				    quidu      	"5B2159F0002F"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	318
+				    max_width  	306
 				    justify    	0
 				    label      	"return ket qua"
 				    pctDist    	0.498350
@@ -6823,11 +6823,11 @@
 				supplier   	@196
 				Focus_Src  	@256
 				Focus_Entry 	@232
-				origin     	(1441, 6916)
-				terminus   	(835, 6916)
+				origin     	(1441, 6167)
+				terminus   	(835, 6167)
 				ordinal    	44)
 			    (object SelfMessView "thanh cong( )" @363
-				location   	(0, 7053)
+				location   	(0, 6304)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6839,7 +6839,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @364
 				    Parent_View 	@363
-				    location   	(910, 7009)
+				    location   	(910, 6260)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6852,7 +6852,7 @@
 				    quidu      	"5B2159FA00EA"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	306
+				    max_width  	304
 				    justify    	0
 				    label      	"thanh cong( )"
 				    pctDist    	0.500000
@@ -6863,11 +6863,11 @@
 				supplier   	@196
 				Focus_Src  	@233
 				Focus_Entry 	@234
-				origin     	(835, 7053)
-				terminus   	(985, 7053)
+				origin     	(835, 6304)
+				terminus   	(985, 6304)
 				ordinal    	45)
 			    (object SelfMessView "xac nhan xoa( )" @365
-				location   	(0, 5996)
+				location   	(0, 5415)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6879,7 +6879,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @366
 				    Parent_View 	@365
-				    location   	(910, 5952)
+				    location   	(910, 5371)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6903,11 +6903,11 @@
 				supplier   	@196
 				Focus_Src  	@228
 				Focus_Entry 	@229
-				origin     	(835, 5996)
-				terminus   	(985, 5996)
+				origin     	(835, 5415)
+				terminus   	(985, 5415)
 				ordinal    	38)
 			    (object InterMessView "dong y( )" @367
-				location   	(0, 6146)
+				location   	(0, 5565)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6919,7 +6919,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @368
 				    Parent_View 	@367
-				    location   	(499, 6102)
+				    location   	(499, 5521)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6932,7 +6932,7 @@
 				    quidu      	"5B215A9302FD"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	230
+				    max_width  	229
 				    justify    	0
 				    label      	"dong y( )"
 				    pctDist    	0.500000
@@ -6943,11 +6943,11 @@
 				supplier   	@196
 				Focus_Src  	@195
 				Focus_Entry 	@230
-				origin     	(195, 6146)
-				terminus   	(803, 6146)
+				origin     	(195, 5565)
+				terminus   	(803, 5565)
 				ordinal    	39)
 			    (object SelfMessView "xac nhan sua( )" @369
-				location   	(0, 4642)
+				location   	(0, 4122)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6959,7 +6959,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @370
 				    Parent_View 	@369
-				    location   	(910, 4598)
+				    location   	(910, 4078)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -6983,11 +6983,11 @@
 				supplier   	@196
 				Focus_Src  	@219
 				Focus_Entry 	@220
-				origin     	(835, 4642)
-				terminus   	(985, 4642)
+				origin     	(835, 4122)
+				terminus   	(985, 4122)
 				ordinal    	28)
 			    (object InterMessView "dong y( )" @371
-				location   	(0, 4825)
+				location   	(0, 4305)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -6999,7 +6999,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @372
 				    Parent_View 	@371
-				    location   	(499, 4781)
+				    location   	(499, 4261)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -7012,7 +7012,7 @@
 				    quidu      	"5B215AB8001F"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	230
+				    max_width  	229
 				    justify    	0
 				    label      	"dong y( )"
 				    pctDist    	0.500000
@@ -7023,8 +7023,8 @@
 				supplier   	@196
 				Focus_Src  	@192
 				Focus_Entry 	@221
-				origin     	(195, 4825)
-				terminus   	(803, 4825)
+				origin     	(195, 4305)
+				terminus   	(803, 4305)
 				ordinal    	29)))))
 	    (object Association "$UNNAMED$78"
 		quid       	"5B214FDB02A0"
