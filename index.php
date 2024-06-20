@@ -1,4 +1,13 @@
-
+<?php
+            session_start();
+            if(isset($_GET['doLogin'])){
+                $_SESSION['doLogin']=1;
+                
+            }else{
+                // $_SESSION['doLogin']=0;
+                $_SESSION['doLogin']=0;
+            }
+        ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,19 +28,45 @@
     <link rel="stylesheet" href="css/style_ads.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
+    <link rel="stylesheet" href="./header_nav.css">
     <title>Trang chủ</title>
 </head>
 <body>
     
-    <div class="wrapper">
-        <?php
-            session_start();
-            $MaTK=10;
-        ?>
-        <a href="./views/BaoTriTaiKhoan/listTK.php">Bảo trì tài khoản</a>
-        <a href="./views/XemThongTin/XemTK.php?id=<?php echo $MaTK;?>">Xem Thông Tin</a>
+<div class="wrapper">
+    <div>
+        <p style="font-size: 25px;">Website đặt vé xem phim</p>
     </div>
+    <div id="dk_dk">
+    <?php
+            if($_SESSION['doLogin']==1){
+                $_SESSION['MaTK']=$_GET['MaTK'];
+                echo '<a href="./views/XemThongTin/XemTK.php?id=' .$_SESSION['MaTK'].'">Xem thông tin;</a>';
+               
+            }else{
+                echo ' <a href="./views/login.php">Đăng nhập</a>
+                         <a href="./views/register.php">Đăng kí</a>';  
+            }
+        
+        ?>
+    </div></div>
+    <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="">Phim</a></li>
+                    <li><a href="">Rạp phim</a></li>
+                    <li><a href="">Ưu đãi</a></li>
+                </ul>
+            </nav>
+            <div>
+                <p>Tìm kiếm phim, rạp</p>
+            <input type="text" placeholder="Nhập từ khóa tìm kiếm">
+            </div>
+            
+        </div>
+    
+    
+    
 </body>
 <!-- <script type="text/javascript" src="js/modal.js"></script> -->
 </html>

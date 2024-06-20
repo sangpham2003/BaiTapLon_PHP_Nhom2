@@ -18,6 +18,9 @@ $result = $TaiKhoanModel->getListTK();
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <?php
+        include('../../adminWeb.php');
+    ?>
     <h2>Danh sách tài khoản</h2>
     <table>
         <thead>

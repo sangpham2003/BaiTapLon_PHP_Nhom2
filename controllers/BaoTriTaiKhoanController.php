@@ -5,13 +5,13 @@
     $model=new TaiKhoanModel($connect);
 
     //
-    function checkTK($model, $username) {
+    function checkTK($model, $username,$email) {
         // Gọi phương thức của model để lấy danh sách tài khoản từ database
         $result = $model->getListTK();
     
         // Duyệt qua mảng $result để kiểm tra tên tài khoản và email
         foreach ($result as $taikhoan) {
-            if ($taikhoan['TenTK'] === $username ) {
+            if ($taikhoan['TenTK'] === $username && $taikhoan['Email']==$email) {
                 return true; // Nếu tìm thấy tên tài khoản hoặc email tồn tại
             }
         }
@@ -40,7 +40,7 @@
         $diachi=$_POST['DiaChi'];
         $sodienthoai=$_POST['SDT'];
         $email=$_POST['Email'];
-        if(!checkTK($model,$taikhoan)){
+        if(!checkTK($model,$taikhoan,$email)){
             $model->addTK($taikhoan, $email, $matkhau, $ngaysinh, $diachi, $sodienthoai, $ten);
             echo '<script>alert("Thêm thành công!");</script>';
             // Chuyển hướng người dùng đến trang ./listTK.php

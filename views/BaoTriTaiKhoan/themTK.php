@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<?php
+        require('../../adminWeb.php');
+    ?>
     <form action="../../controllers/BaoTriTaiKhoanController.php?query=them" method="post">
     <table>
         <h2>Sửa thông tin tài khoản</h2>

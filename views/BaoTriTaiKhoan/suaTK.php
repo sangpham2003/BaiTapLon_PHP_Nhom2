@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<?php
+        require('../../adminWeb.php');
+    ?>
     <form action="../../controllers/BaoTriTaiKhoanController.php?query=sua&id= <?php echo $id;?>" method="post">
 
         <table>
