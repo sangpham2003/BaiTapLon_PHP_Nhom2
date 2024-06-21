@@ -88,12 +88,14 @@
     <div id="menu">
             <nav>
                 <ul>
+                <li><a href="#">Trang chủ</a></li>
                     <li><a href="./views/BaoTriTaiKhoan/listTK.php">Bảo trì tài khoản</a></li>
                     <li><a href="">Bảo trì rạp phim </a></li>
                     <li><a href="">Bảo trì phim</a></li>
                 </ul>
             </nav>     
     </div> 
+    <a href="./index.php">Trang người dùng</a>
 </body>
 <!-- <script type="text/javascript" src="js/modal.js"></script> -->
 </html>

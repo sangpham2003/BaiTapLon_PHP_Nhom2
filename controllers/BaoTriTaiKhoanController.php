@@ -56,7 +56,7 @@
      
         
     }
-
+    
     $bien=$_GET['query'];
     
     if($bien=="sua"){

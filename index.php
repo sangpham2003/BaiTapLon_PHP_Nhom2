@@ -1,7 +1,12 @@
 <?php
             session_start();
             if(isset($_GET['doLogin'])){
-                $_SESSION['doLogin']=1;
+                if($_GET['doLogin']==0){
+                    $_SESSION['doLogin']=0;
+                }
+                else{
+                    $_SESSION['doLogin']=1;
+                }
                 
             }else{
                 // $_SESSION['doLogin']=0;
@@ -40,8 +45,12 @@
     <div id="dk_dk">
     <?php
             if($_SESSION['doLogin']==1){
-                $_SESSION['MaTK']=$_GET['MaTK'];
+                if(isset($_GET['MaTK'])){
+                    $_SESSION['MaTK']=$_GET['MaTK'];
+                }
+                
                 echo '<a href="./views/XemThongTin/XemTK.php?id=' .$_SESSION['MaTK'].'">Xem thông tin;</a>';
+                echo '<a href="./index.php?doLogin=0">Đăng xuất</a>';
                
             }else{
                 echo ' <a href="./views/login.php">Đăng nhập</a>
@@ -53,6 +62,7 @@
     <div id="menu">
             <nav>
                 <ul>
+                    <li><a href="#">Trang chủ</a></li>
                     <li><a href="">Phim</a></li>
                     <li><a href="">Rạp phim</a></li>
                     <li><a href="">Ưu đãi</a></li>

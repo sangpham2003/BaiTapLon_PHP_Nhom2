@@ -53,8 +53,91 @@
             return true;
         }
     </script>
+    <style>
+        body{
+            background-color: rgb(253,252,240);
+        }
+        .wrapper{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            align-content: center;
+             text-align: center;
+        }
+        #menu {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            background-color: #FEF7DD;
+            align-content: center;
+            text-align: center;
+
+        }
+
+        #menu ul {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            list-style-type: none;
+            align-content: center;
+        }
+
+        #menu li {
+            
+            text-justify: auto;
+            text-align: center;
+        }
+
+        #menu a {
+            border-radius: 10px;
+            line-height: 50px;
+            color: rgb(34,34,34);
+            text-decoration: none;
+            display:block;
+            border-right: 1px white solid;
+            padding-right: 30px;
+            padding-left: 30px;
+            transition: background-color 0.5s ease; /* Thêm hiệu ứng chuyển màu chậm */
+        }
+
+        #menu a:hover{
+            background-color: red;
+            color:bisque;
+        }
+        .wrapper a:hover{
+            color:coral;
+        }
+
+        #menu input {
+            margin: 6px 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
+<div class="wrapper">
+    <div>
+        <p style="font-size: 25px;">Website đặt vé xem phim</p>
+    </div>
+    <div id="dk_dk">
+    <?php    
+        echo '<a href="./XemTK.php?id=' .$id.'">Xem thông tin;</a>';
+        echo '<a href="../../index.php?doLogin=0">Đăng xuất</a>';
+    ?>
+    </div></div>
+    <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="../../index.php">Trang chủ</a></li>
+                    <li><a href="">Phim</a></li>
+                    <li><a href="">Rạp phim</a></li>
+                    <li><a href="">Ưu đãi</a></li>
+                </ul>
+            </nav>
+            <div>
+                <p>Tìm kiếm phim, rạp</p>
+            <input type="text" placeholder="Nhập từ khóa tìm kiếm">
+            </div>
+            
+        </div>
+    
     <form action="../../controllers/XemThongTinTKController.php?id=<?php echo $id;?>" method="post" onsubmit="return checkChanges();">
 
         <table>
