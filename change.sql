@@ -1,0 +1,1 @@
+ALTER TABLE `taikhoan` CHANGE `NgaySinh` `NgaySinh` DATE NULL DEFAULT NULL;
