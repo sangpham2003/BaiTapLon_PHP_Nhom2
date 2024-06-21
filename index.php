@@ -80,7 +80,7 @@ if(isset($_GET['doLogin'])){
             if ($id !== null) {
                 $controller->chiTietRap($id);
             } else {
-                echo "Không tìm thấy thông tin rạp phim.haha";
+                echo "Không tìm thấy thông tin rạp phim";
             }
             break;
         default:
