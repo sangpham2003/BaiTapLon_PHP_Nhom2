@@ -62,8 +62,8 @@ if(isset($_GET['doLogin'])){
     </div>
 
     <?php
-    require_once '/XAMPP/htdocs/BaiTapLon_PHP_Nhom2/BaiTapLon_PHP_Nhom2/controllers/RapController.php';
-    require_once '/XAMPP/htdocs/BaiTapLon_PHP_Nhom2/BaiTapLon_PHP_Nhom2/views/XemThongTinRap/RapView.php';
+    require_once '/XAMPP/htdocs/BaiTapLon_PHP_Nhom2/controllers/RapController.php';
+    require_once '/XAMPP/htdocs/BaiTapLon_PHP_Nhom2/views/XemThongTinRap/RapView.php';
 
     // Xử lý yêu cầu từ người dùng
     $action = isset($_GET['action']) ? $_GET['action'] : '';

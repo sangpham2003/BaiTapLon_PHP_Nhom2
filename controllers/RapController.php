@@ -1,6 +1,6 @@
 <?php
-require_once '/XAMPP/htdocs/BaiTapLon_PHP_Nhom2/BaiTapLon_PHP_Nhom2/models/RapModel.php';
-require_once '/XAMPP/htdocs/BaiTapLon_PHP_Nhom2/BaiTapLon_PHP_Nhom2/views/XemThongTinRap/RapView.php';
+require_once '/XAMPP/htdocs/BaiTapLon_PHP_Nhom2/models/RapModel.php';
+require_once '/XAMPP/htdocs/BaiTapLon_PHP_Nhom2/views/XemThongTinRap/RapView.php';
 
 class RapController {
     private $view;
