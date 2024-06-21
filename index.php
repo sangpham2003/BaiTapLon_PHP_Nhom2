@@ -70,7 +70,7 @@
             </nav>
             <div>
                 <p>Tìm kiếm phim, rạp</p>
-            <input type="text" placeholder="Nhập từ khóa tìm kiếm">
+            <input type="text" placeholder="Nhập từ khóa tìm kiếm :">
             </div>
             
         </div>
